@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0CBF81215D501C0094CE45 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CBF80215D501C0094CE45 /* CoreDataStack.swift */; };
 		AD07BC2C1F7AD366002DCF62 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07BC2B1F7AD366002DCF62 /* MapViewController.swift */; };
 		ADE5679A1F7940EC0002C23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE567991F7940EC0002C23E /* AppDelegate.swift */; };
 		ADE5679C1F7940EC0002C23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5679B1F7940EC0002C23E /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		35995366EEA825F51FBEB29D /* Pods-Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.release.xcconfig"; sourceTree = "<group>"; };
 		4552824BD1ADBE7287F457E2 /* Pods-Cars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0CBF80215D501C0094CE45 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		AD07BC2B1F7AD366002DCF62 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ADE567961F7940EC0002C23E /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE567991F7940EC0002C23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				ADE567991F7940EC0002C23E /* AppDelegate.swift */,
+				9E0CBF80215D501C0094CE45 /* CoreDataStack.swift */,
 				ADE568091F798A420002C23E /* ServiceManager.swift */,
 				ADE5680B1F798A600002C23E /* NetworkManager.swift */,
 				ADE5684A1F7A9D7A0002C23E /* DataBaseManger.swift */,
@@ -407,6 +410,7 @@
 				ADE5680A1F798A420002C23E /* ServiceManager.swift in Sources */,
 				ADE5679C1F7940EC0002C23E /* ViewController.swift in Sources */,
 				ADE5680C1F798A600002C23E /* NetworkManager.swift in Sources */,
+				9E0CBF81215D501C0094CE45 /* CoreDataStack.swift in Sources */,
 				ADE5684B1F7A9D7A0002C23E /* DataBaseManger.swift in Sources */,
 				ADE567F61F794AC10002C23E /* ViewControllerViewModel.swift in Sources */,
 				ADE568081F7955FE0002C23E /* Car+CoreDataProperties.swift in Sources */,

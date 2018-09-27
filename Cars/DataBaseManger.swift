@@ -17,13 +17,13 @@ class DataBaseManger: NSObject {
         ServiceManager.loadCars { (response, error) in
             if response != nil {
                 //TODO - Out of the scope - Use background context to improve performance
-                let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+                let context = CoreDataStack.persistentContainer.viewContext
                 for dictionary in response! {
                     let car = Car(context:context)
                     car.parseWith(response: dictionary as! [String : Any])
                 }
                 //TODO - Out of the scope - implement caching logic based on requiremnt
-                (UIApplication.shared.delegate as! AppDelegate).saveContext()
+                CoreDataStack.saveContext()
                 completionBlock()
             }else{
                 // Do nothing -  no error, response is empty
@@ -35,7 +35,7 @@ class DataBaseManger: NSObject {
     }
     
    class func loadCarsFromDb() -> [CarInfoViewModel] {
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let context = CoreDataStack.persistentContainer.viewContext
         var viewModelArray = [CarInfoViewModel]()
         do {
             let cars : [Car] = try context.fetch(Car.fetchRequest())

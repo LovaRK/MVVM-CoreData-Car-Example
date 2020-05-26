@@ -1,5 +1,8 @@
 # MVVM-CoreData-Car-Example
 MVVM App with core data in swift example
+
+
+
 func NKPlaceholderImage(image:UIImage?, imageView:UIImageView?,imgUrl:String,compate:@escaping (UIImage?) -> Void){
 
     if image != nil && imageView != nil {
